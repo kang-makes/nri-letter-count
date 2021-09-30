@@ -1,0 +1,12 @@
+integrations:
+- name: nri-letter-counter
+  exec: /home/vagrant/Source/github.com/kang-makes/newrelic-ohi-test/bin/nri-letter-counter
+  env:
+    METRICS: "true"
+    EXCLUDE_LETTERS: ""
+    FOLDER_TO_SCAN: "/home/vagrant/Source"
+  interval: 15s
+  labels:
+    env: production
+    role: do-not-use-this-in-production--really--dont
+

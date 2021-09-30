@@ -1,0 +1,8 @@
+coverage.xml
+bin
+.vscode
+.idea
+*.exe
+*.msi
+.DS_Store
+
